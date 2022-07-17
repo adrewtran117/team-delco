@@ -1,5 +1,5 @@
 # Team Delco's Summer 2022 IBM GTSP project
-## Team Members
+## Student Team Members
 * Navi Singh
 * Ryan O'meara
 * Chiku Okechukwu
