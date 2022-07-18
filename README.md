@@ -4,3 +4,6 @@
 * Ryan O'Meara
 * Chiku Okechukwu
 * Andrew Tran
+## Mentors
+* Katie Harshman
+* Suma Manvi
