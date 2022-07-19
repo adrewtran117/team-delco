@@ -1,0 +1,10 @@
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  background-color: DodgerBlue;
+  margin: 0;
+  padding: 0 1.5rem;
+}
+svg {
+    display: inline-block;
+    vertical-align: middle;
+}
