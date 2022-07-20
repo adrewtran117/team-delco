@@ -4,10 +4,10 @@ import React from 'react';
 import { BarChart, Bar, CartesianGrid, XAxis, YAxis } from 'recharts';
 import { useState,useEffect } from 'react';
 import { csv } from 'd3';
-  
-  
+
+
 const ChildBLL = () => {
-  
+
 // Sample data
 // const data = [
 //   {name: 'Geeksforgeeks', students: 400},
@@ -34,6 +34,7 @@ return (
         <XAxis dataKey="zip_code" />
         <YAxis />
       </BarChart>
+
     </div>
   
 </div>
