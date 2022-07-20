@@ -7,11 +7,11 @@ import { Resizable } from "re-resizable";
 
 
 
-const AirQuality = () => {
+const AttendCollege = () => {
 
     const[data,setData] = useState();
     useEffect(() => {
-        csv('air_quality_index_days.csv').then(data =>
+        csv('attendcollege.csv').then(data =>
              setData(data))
     });
 
@@ -35,7 +35,7 @@ const AirQuality = () => {
         >
       <div>
       <div>
-      <h3>Air Quality Ratings by Year(Healthy,Moderate,Unhealthy)</h3>
+      <h3>Rate of Students who Matriculate to College First Fall</h3>
       <ResponsiveContainer width="99%" aspect={3}>
         <LineChart
           width={500}
@@ -53,9 +53,7 @@ const AirQuality = () => {
           <YAxis />
           <Tooltip />
           <Legend />
-          <Line type="monotone" dataKey="good" stroke="#00FF00" />
-          <Line type="monotone" dataKey="unhealthy" stroke="#FF0000" />
-          <Line type="monotone" dataKey="moderate" stroke="#FFFF00" />
+          <Line type="monotone" dataKey="rate" stroke="#00FF00" />
         </LineChart>
         </ResponsiveContainer>
         </div>
@@ -66,4 +64,4 @@ const AirQuality = () => {
     );
   }
 
-  export default AirQuality;
+  export default AttendCollege;
