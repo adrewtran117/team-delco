@@ -2,6 +2,7 @@ import React from 'react'
 import './styles.css';
 import ChildBLL from './Graphs.js/childBLL';
 import AirQuality from './Graphs.js/airquality';
+import AttendCollege from './Graphs.js/attendcollege';
 
 function ButtonInterface() {
 
@@ -16,6 +17,12 @@ function ButtonInterface() {
         e.preventDefault();
         AIRsetVisible(!AIRvisible);
       }
+    
+      const [AttendCollegevisible, AttendCollegesetVisible] = React.useState(false);
+      function Collegeclick(e) {
+          e.preventDefault();
+          AttendCollegesetVisible(!AttendCollegevisible);
+        }
 
     return (
         <div>
@@ -28,11 +35,18 @@ function ButtonInterface() {
                     AIRclick(event)
             }}> Air Quality </button>
 
+            <button className="buttonStyle" onClick={(event) => {
+                    Collegeclick(event)
+            }}> AttendCollege </button>
+
             {BLLvisible && (
             <ChildBLL />)}
 
             {AIRvisible && (
             <AirQuality />)}
+
+            {AttendCollegevisible && (
+            <AttendCollege />)}
 
 
         </div>

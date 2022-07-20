@@ -4,6 +4,8 @@ import React from 'react';
 import { BarChart, Bar, CartesianGrid, XAxis, YAxis, ResponsiveContainer } from 'recharts';
 import { useState,useEffect } from 'react';
 import { csv } from 'd3';
+import Draggable from 'react-draggable';
+import { Resizable } from "re-resizable";
 
 
 const ChildBLL = () => {
@@ -21,12 +23,28 @@ const[data,setData] = useState();
              setData(data))
     });
 
+const style = {
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      border: "solid 1px #ddd",
+      background: "#f0f0f0"
+};
+
 
 return (
-<div style={{alignItems:'center', alignContent:'center'}}>
+<Draggable>
+<Resizable
+    style={style}
+    defaultSize={{
+      width: 350,
+      height: 350
+    }}
+  >
+<div style={{}}>
     <div style={{}}>
-    <h3>Percentage of Children with Blood Lead Level over 5</h3>
-    <ResponsiveContainer width="50%" aspect={3}>
+    <h3>Percentage of Children with Blood Lead Level over 5 by Zip Code</h3>
+    <ResponsiveContainer width="99%" aspect={3}>
       <BarChart width={1125} height={450} data={data}>
         <Bar dataKey="perc_5plus" fill="black" />
         <CartesianGrid stroke="#ccc" />
@@ -37,6 +55,8 @@ return (
 
     </div>
 </div>
+</Resizable>
+</Draggable>
 
 );
 }
