@@ -8,3 +8,9 @@ svg {
     display: inline-block;
     vertical-align: middle;
 }
+
+.buttonStyle{
+  width: 80px;
+  height:30px;
+
+}

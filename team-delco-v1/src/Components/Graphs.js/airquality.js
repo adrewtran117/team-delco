@@ -13,6 +13,9 @@ const AirQuality = () => {
     });
 
     return (
+      <div>
+      <h3>Percentage of Children with Blood Lead Level over 5</h3>
+      <ResponsiveContainer width="50%" aspect={3}>
         <LineChart
           width={500}
           height={300}
@@ -33,6 +36,8 @@ const AirQuality = () => {
           <Line type="monotone" dataKey="unhealthy" stroke="#FF0000" />
           <Line type="monotone" dataKey="moderate" stroke="#FFFF00" />
         </LineChart>
+        </ResponsiveContainer>
+        </div>
     );
   }
 
