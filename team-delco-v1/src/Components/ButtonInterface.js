@@ -8,24 +8,25 @@ function ButtonInterface() {
     const [BLLvisible, BLLsetVisible] = React.useState(false);
     function BLLclick(e) {
         e.preventDefault();
-        BLLsetVisible(true);
+        BLLsetVisible(!BLLvisible);
       }
 
     const [AIRvisible, AIRsetVisible] = React.useState(false);
     function AIRclick(e) {
         e.preventDefault();
-        AIRsetVisible(true);
+        AIRsetVisible(!AIRvisible);
       }
 
     return (
         <div>
+
             <button className="buttonStyle" onClick={(event) => {
                     BLLclick(event)
             }}> Child BLL </button>
+
             <button className="buttonStyle" onClick={(event) => {
                     AIRclick(event)
             }}> Air Quality </button>
-
 
             {BLLvisible && (
             <ChildBLL />)}
