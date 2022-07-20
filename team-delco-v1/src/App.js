@@ -1,9 +1,7 @@
-import logo from './logo.svg';
 import React from 'react';
 import './App.css';
-import { Text } from "react";
 import PageName from './Components/PageName';
-import MapChart from './Components/MapChart';
+import ChildBLL from './Components/Graphs.js/childBLL';
 
 function App() {
   const mystyle = {
@@ -11,8 +9,12 @@ function App() {
   };
   return (
     <div style={mystyle} className="App">
-      <PageName/>
-      <MapChart/>
+      <div>
+        <PageName/>
+          <div style={{alignContent:'center'}}>
+            <ChildBLL/>
+          </div>
+      </div>
     </div>
   );
 }
