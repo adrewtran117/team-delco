@@ -10,6 +10,7 @@ function App() {
   return (
     <div style={mystyle} className="App">
       <div>
+        <h1>Home Screen</h1>
         <ProjectTitle/>
         <SpatialMenu/>
       </div>

@@ -9,8 +9,24 @@ svg {
     vertical-align: middle;
 }
 
-.buttonStyle{
+.buttonStyleEducation1{
   width: 100px;
   height:40px;
-
+  position:fixed;
+  bottom: 200px;
+  right: 100px;
+}
+.buttonStyleEnvironment1{
+  width: 100px;
+  height:40px;
+  position:absolute;
+  bottom: 500px;
+  right:100px;
+}
+.buttonStyleHealth1{
+  width: 100px;
+  height:40px;
+  position:absolute;
+  bottom: 800px;;
+  right: 100px;
 }
