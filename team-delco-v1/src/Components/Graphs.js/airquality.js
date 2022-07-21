@@ -55,7 +55,7 @@ const AirQuality = () => {
           <Legend />
           <Line type="monotone" dataKey="good" stroke="#00FF00" />
           <Line type="monotone" dataKey="unhealthy" stroke="#FF0000" />
-          <Line type="monotone" dataKey="moderate" stroke="#FFFF00" />
+          <Line type="monotone" dataKey="moderate" stroke="#F6C604" />
         </LineChart>
         </ResponsiveContainer>
         </div>
