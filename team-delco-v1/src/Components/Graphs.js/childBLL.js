@@ -10,13 +10,6 @@ import { Resizable } from "re-resizable";
 
 const ChildBLL = () => {
 
-// Sample data
-// const data = [
-//   {name: 'Geeksforgeeks', students: 400},
-//   {name: 'Technical scripter', students: 700},
-//   {name: 'Geek-i-knack', students: 200},
-//   {name: 'Geek-o-mania', students: 1000}
-// ];
 const[data,setData] = useState();
     useEffect(() => {
         csv('child_blood_lead_levels_by_zip.csv').then(data =>

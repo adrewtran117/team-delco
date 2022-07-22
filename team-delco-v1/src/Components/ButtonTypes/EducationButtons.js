@@ -1,6 +1,6 @@
 import React from 'react'
-import './styles.css';
-import AttendCollege from './Graphs.js/attendcollege';
+import '../styles.css';
+import AttendCollege from '../Graphs.js/attendcollege';
 
 function EducationButtons() {
 
@@ -11,7 +11,7 @@ function EducationButtons() {
         }
 
     return (
-        <div>
+        <div style={{}}>
 
             <button className="buttonStyleEducation1" onClick={(event) => {
                     Collegeclick(event)
