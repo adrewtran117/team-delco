@@ -1,20 +1,40 @@
-import React from 'react';
-import './App.css';
-import ProjectTitle from './Components/ProjectTitle';
-import SpatialMenu from './Pages/SpatialExploration';
+import Navbar from "./Navbar"
+import Home from "./Pages/Home"
+import About from "./Pages/About"
+import SpatialPage from "./Pages/Exploration"
+import { Route, Routes } from "react-router-dom"
 
 function App() {
-  const mystyle = {
-
-  };
   return (
-    <div style={mystyle} className="App">
-      <div>
-        <ProjectTitle/>
-        <SpatialMenu/>
+    <>
+      <Navbar />
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/spatial" element={<SpatialPage/>} />
+        </Routes>
       </div>
-    </div>
-  );
+    </>
+  )
 }
 
-export default App;
+export default App
+
+
+
+// import React from 'react';
+// import './App.css';
+// import SpatialPage from './Pages/Exploration';
+// import Home from './Pages/Home';
+// import About from './Pages/About';
+
+// function App() {
+//   return (
+//     <div className="App">
+//         <SpatialPage/>
+//     </div>
+//   );
+// }
+
+// export default App;

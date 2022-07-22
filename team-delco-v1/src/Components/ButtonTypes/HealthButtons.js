@@ -1,6 +1,6 @@
 import React from 'react'
-import './styles.css';
-import ChildBLL from './Graphs.js/childBLL';
+import '../styles.css';
+import ChildBLL from '../Graphs.js/childBLL';
 
 function HealthButtons() {
 
