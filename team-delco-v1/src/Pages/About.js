@@ -1,4 +1,10 @@
+import MapChart from "../Components/mapchart"
 export default function About() {
-    return <h1>About</h1>
+    return(
+      <div>
+        <h1>About</h1>
+        <MapChart/>
+      </div>
+    )
   }
   

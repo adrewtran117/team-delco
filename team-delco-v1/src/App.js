@@ -3,6 +3,8 @@ import Home from "./Pages/Home"
 import About from "./Pages/About"
 import SpatialPage from "./Pages/Exploration"
 import { Route, Routes } from "react-router-dom"
+import Particlesjs from "./Components/particles"
+import './App.css';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/spatial" element={<SpatialPage/>} />
         </Routes>
+        <Particlesjs/>
+
       </div>
     </>
   )
