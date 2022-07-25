@@ -6,7 +6,7 @@ import { Route, Routes } from "react-router-dom"
 
 function App() {
   return (
-    <>
+    <div>
       <Navbar />
       <div className="container">
         <Routes>
@@ -15,7 +15,7 @@ function App() {
           <Route path="/spatial" element={<SpatialPage/>} />
         </Routes>
       </div>
-    </>
+    </div>
   )
 }
 
