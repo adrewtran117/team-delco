@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles.css';
 import { Input } from 'antd';
 import {useState} from 'react'
+import { axisLeft } from 'd3';
 
 const { TextArea } = Input;
 async function gpt3(input) {
@@ -22,24 +23,29 @@ function GenerateText() {
         setOutput(res.choices[0].text.trim());
     }
     return (
-        <div>
-            <TextArea
-              onChange={e => setInput(e.target.value)}
-              value={input}
-              style={{
-                width: '50%',
-                height: '200px',
-                resize: 'none',
-                border: '2px solid',
-                padding: '10px'
-              }}
-            />
-
-            <button onClick={getGPT3}>Generate me Text!</button>
-
-            <h2>Your response:</h2>
+        <div className='container'>
             <div>
-                <p>{output ? output : "Click 'Generate Text' to receive text!"}</p>
+              <div className='item'>
+                <h2 className='item'>Your response:</h2>
+              </div>
+
+              <div className='item'>
+                <p>{output ? output : "Click 'Generate Text' below to receive text!"}</p>
+              </div>
+              <TextArea
+                onChange={e => setInput(e.target.value)}
+                value={input}
+                style={{
+                  width: '500px',
+                  height: '35px',
+                  resize: 'none',
+                  border: '2px solid'
+                }}
+              />
+            </div>
+
+            <div className='item'>
+              <button  onClick={getGPT3}>Generate me Text!</button>
             </div>
         </div>
         )

@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles.css';
 import AttendCollege from '../Graphs.js/attendcollege';
+import './buttonPosition.css';
 
 function EducationButtons() {
 
@@ -11,14 +12,19 @@ function EducationButtons() {
         }
 
     return (
-        <div style={{}}>
-
-            <button className="buttonStyleEducation1" onClick={(event) => {
+        <div className="education1">
+            <div style={{fontSize:25,color:'black',fontFamily:'Impact'}}>
+              Education
+            </div>
+            <button onClick={(event) => {
                     Collegeclick(event)
-            }}> AttendCollege </button>
+            }}> College Matriculation </button>
 
+            <div className='generationspot'>
             {AttendCollegevisible && (
             <AttendCollege />)}
+            </div>
+            
 
 
         </div>
