@@ -9,10 +9,15 @@ function SpatialPage() {
 
   };
   return (
-    <div style={mystyle} className="App">
+    <div>
         <SpatialTitle/>
+        <div className='rectangle'></div>
+        <div style={{position: 'fixed', top:100, left: 100}}>
         <SpatialMenu/>
+        </div>
+        <div className='nlp'>
         <GPT3Interface/>
+        </div>
     </div>
   );
 }

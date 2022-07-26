@@ -1,0 +1,35 @@
+.health1{
+    width: 100px;
+    height:40px;
+    position:fixed;
+    bottom: 180px;
+    right: 122px;
+}
+.education1{
+    width: 100px;
+    height:40px;
+    position:fixed;
+    bottom: 320px;
+    right: 122px;
+}
+.environment1{
+    width: 100px;
+    height:40px;
+    position:fixed;
+    bottom: 520px;
+    right: 122px;
+}
+.environmenttitle{
+    width: 100px;
+    height:40px;
+    position:fixed;
+    bottom: 560px;
+    right: 132px;
+}
+.generationspot{
+    width: 100px;
+    height:40px;
+    position:fixed;
+    bottom: 500px;
+    right:800px;
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles.css';
 import ChildBLL from '../Graphs.js/childBLL';
+import './buttonPosition.css';
 
 function HealthButtons() {
 
@@ -11,14 +12,19 @@ function HealthButtons() {
       }
 
     return (
-        <div>
-
-            <button className="buttonStyleHealth1" onClick={(event) => {
+        <div className ="health1">
+            <div style={{fontSize:25,color:'black',fontFamily:'Impact'}}>
+              Health
+            </div>
+            <button onClick={(event) => {
                     BLLclick(event)
-            }}> Child BLL </button>
+            }}> Blood Lead Level </button>
 
+
+            <div className='generationspot'>
             {BLLvisible && (
             <ChildBLL />)}
+            </div>
 
         </div>
         )
