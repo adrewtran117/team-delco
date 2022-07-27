@@ -5,9 +5,6 @@ import SpatialMenu from '../Components/SpatialExploration';
 import GPT3Interface from '../Components/GPTinterface';
 
 function SpatialPage() {
-  const mystyle = {
-
-  };
   return (
     <div>
         <SpatialTitle/>

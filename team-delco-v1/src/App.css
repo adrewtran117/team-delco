@@ -22,12 +22,12 @@
   width: 200px;
   height: 550px;
   right:75px;
-  background: green;
+  background: white;
   border-radius: 25px;
 }
 .nav {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
@@ -55,10 +55,10 @@
   border-radius: 25;
 }
 .nav li:hover {
-  background-color: black;
+  background-color: white;
 }
 .nav li.active {
-  background-color: black;
+  background-color: white;
 }
 * {
   box-sizing: border-box;
