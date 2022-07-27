@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles.css';
 import ImpoverishedPeople from '../Graphs.js/impoverishedpeople';
 import './buttonPosition.css';
+import logo from './images/people.png';
 
 function ImpoverishedButton() {
 
@@ -18,7 +19,7 @@ function ImpoverishedButton() {
             </div>
             <button onClick={(event) => {
                     BLLclick(event)
-            }}> Impoverished Population Demographics </button>
+            }}> <p style={{fontSize:10}}>Poverty Demographics</p><img src={logo}></img>  </button>
 
 
             <div className='generationspot'>

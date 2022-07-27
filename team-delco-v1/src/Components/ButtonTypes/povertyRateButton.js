@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles.css';
 import './buttonPosition.css';
 import Phlpoverty from '../Graphs.js/phlpoverty';
+import logo from './images/coins.png';
 
 function PovertyRateButton() {
 
@@ -15,7 +16,7 @@ function PovertyRateButton() {
         <div className ="economic2">
             <button onClick={(event) => {
                     BLLclick(event)
-            }}> Poverty Rate </button>
+            }}> <p style={{fontSize:10}}>Poverty Rate</p><img src={logo}></img> </button>
 
 
             <div className='generationspot'>
