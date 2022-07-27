@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles.css';
 import AirQuality from '../Graphs.js/airquality';
 import './buttonPosition.css';
+import logo from './images/airquality.png';
 
 function EnvironmentalButtons() {
 
@@ -17,9 +18,11 @@ function EnvironmentalButtons() {
                 Environment
                 </div>
             <div  className='environment1'>
-                <button onClick={(event) => {
-                        AIRclick(event)
-                }}> Air Quality </button>
+            <button onClick={(event) => {
+                    AIRclick(event)
+            }}> <p style={{fontSize:10}}>Air Quality</p><img src={logo}></img> </button>
+
+                
             </div>
             
             <div className='generationspot'>

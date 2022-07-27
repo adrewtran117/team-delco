@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles.css';
 import ChildBLL from '../Graphs.js/childBLL';
 import './buttonPosition.css';
+import logo from './images/needle.png';
 
 function HealthButtons() {
 
@@ -18,7 +19,7 @@ function HealthButtons() {
             </div>
             <button onClick={(event) => {
                     BLLclick(event)
-            }}> Blood Lead Level </button>
+            }}> <p style={{fontSize:10}}>Blood Lead Levels</p><img src={logo}></img> </button>
 
 
             <div className='generationspot'>
