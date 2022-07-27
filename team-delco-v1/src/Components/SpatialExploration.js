@@ -3,11 +3,16 @@ import '../App.css';
 import EnvironmentalButtons from './ButtonTypes/EnvironmentalButtons';
 import HealthButtons from './ButtonTypes/HealthButtons';
 import EducationButtons from './ButtonTypes/EducationButtons';
+import ImpoverishedButton from './ButtonTypes/impoverished';
+
 
 function SpatialMenu() {
   return (
     <div>
         <div>
+            <div>
+              <ImpoverishedButton/>
+            </div>
 
             <div>
               <EnvironmentalButtons/>

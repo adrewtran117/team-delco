@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles.css';
 import AttendCollege from '../Graphs.js/attendcollege';
 import './buttonPosition.css';
+import ImpoverishedPeople from '../Graphs.js/impoverishedpeople';
 
 function EducationButtons() {
 
