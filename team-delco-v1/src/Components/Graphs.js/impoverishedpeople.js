@@ -9,7 +9,7 @@ const data = [
     { name: "People", value: 41.5 },
     { name: "White", value: 21.5 },
     { name: "Hispanic", value: 18.6 },
-    { name: "Other", value: 17.59 },
+    { name: "Other", value: 18.4 },
 
 ];
 

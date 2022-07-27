@@ -1,9 +1,9 @@
 import React from 'react'
 import '../styles.css';
-import ImpoverishedPeople from '../Graphs.js/impoverishedpeople';
 import './buttonPosition.css';
+import Phlpoverty from '../Graphs.js/phlpoverty';
 
-function ImpoverishedButton() {
+function PovertyRateButton() {
 
     const [BLLvisible, BLLsetVisible] = React.useState(false);
     function BLLclick(e) {
@@ -12,18 +12,15 @@ function ImpoverishedButton() {
       }
 
     return (
-        <div className ="economic1">
-            <div style={{fontSize:25,color:'black',fontFamily:'Impact',left:10}}>
-              Economic
-            </div>
+        <div className ="economic2">
             <button onClick={(event) => {
                     BLLclick(event)
-            }}> Impoverished Population Demographics </button>
+            }}> Poverty Rate </button>
 
 
             <div className='generationspot'>
             {BLLvisible && (
-            <ImpoverishedPeople />)}
+            <Phlpoverty/>)}
             </div>
 
         </div>
@@ -31,4 +28,4 @@ function ImpoverishedButton() {
     }
 
 
-export default ImpoverishedButton;
+export default PovertyRateButton;
