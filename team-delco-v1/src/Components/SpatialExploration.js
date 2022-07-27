@@ -4,6 +4,7 @@ import EnvironmentalButtons from './ButtonTypes/EnvironmentalButtons';
 import HealthButtons from './ButtonTypes/HealthButtons';
 import EducationButtons from './ButtonTypes/EducationButtons';
 import ImpoverishedButton from './ButtonTypes/impoverished';
+import PovertyRateButton from './ButtonTypes/povertyRateButton';
 
 
 function SpatialMenu() {
@@ -13,7 +14,9 @@ function SpatialMenu() {
             <div>
               <ImpoverishedButton/>
             </div>
-
+            <div>
+              <PovertyRateButton/>
+            </div>
             <div>
               <EnvironmentalButtons/>
             </div>

@@ -38,8 +38,8 @@ const AirQuality = () => {
       <h3>Air Quality Ratings by Year(Healthy,Moderate,Unhealthy)</h3>
       <ResponsiveContainer width="99%" aspect={3}>
         <LineChart
-          width={500}
-          height={300}
+          width={20}
+          height={15}
           data={data}
           margin={{
             top: 5,
