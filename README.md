@@ -6,4 +6,3 @@
 * Andrew Tran
 ## Mentors
 * Katie Harshman
-* Suma Manvi
