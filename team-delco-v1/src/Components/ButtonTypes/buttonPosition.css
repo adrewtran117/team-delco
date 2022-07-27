@@ -2,28 +2,28 @@
     width: 100px;
     height:40px;
     position:fixed;
-    bottom: 160px;
+    bottom: 150px;
     right: 122px;
 }
 .education1{
-    width: 100px;
-    height:40px;
+    /* width: 100px;
+    height:40px; */
     position:fixed;
-    bottom: 250px;
+    bottom: 190px;
     right: 122px;
 }
 .environment1{
     width: 100px;
     height:40px;
     position:fixed;
-    bottom: 420px;
+    bottom: 320px;
     right: 122px;
 }
 .economic1{
     width: 100px;
     height:40px;
     position:fixed;
-    bottom: 555px;
+    bottom: 495px;
     right: 122px;
 }
 .economic2{
@@ -37,7 +37,7 @@
     width: 100px;
     height:40px;
     position:fixed;
-    bottom: 460px;
+    bottom: 360px;
     right: 132px;
 }
 .generationspot{

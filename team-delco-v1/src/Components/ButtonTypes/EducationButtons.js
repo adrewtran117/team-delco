@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles.css';
 import AttendCollege from '../Graphs.js/attendcollege';
 import './buttonPosition.css';
-import ImpoverishedPeople from '../Graphs.js/impoverishedpeople';
+import logo from './images/CollegeEducation.png';
 
 function EducationButtons() {
 
@@ -15,11 +15,11 @@ function EducationButtons() {
     return (
         <div className="education1">
             <div style={{fontSize:25,color:'black',fontFamily:'Impact'}}>
-              Education
+            Education
             </div>
             <button onClick={(event) => {
                     Collegeclick(event)
-            }}> College Matriculation </button>
+            }}> <p style={{fontSize:10}}>College Attendence</p><img src={logo}></img> </button>
 
             <div className='generationspot'>
             {AttendCollegevisible && (
