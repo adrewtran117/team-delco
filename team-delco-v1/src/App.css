@@ -27,23 +27,24 @@
 }
 .nav {
   background-color: white;
-  color: black;
+  color: rgb(1, 37, 73);
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  gap: 2rem;
-  padding: 0 1rem;
+  gap: 0rem;
+  padding: 0 2rem;
   border-radius: 25;
 }
 .site-title {
   font-size: 2rem;
 }
 .nav ul {
-  padding: 0;
+  padding: 0 3rem;
   margin: 0;
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
+  
 }
 .nav a {
   color: inherit;
@@ -99,3 +100,8 @@
   }
 }
 
+.homepage2 {
+  height: 500px;
+  width: 500px;
+  background-color: white;
+}

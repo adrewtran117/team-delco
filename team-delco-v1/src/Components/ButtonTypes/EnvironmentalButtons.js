@@ -14,7 +14,7 @@ function EnvironmentalButtons() {
     
     return (
         <div className='environment1'>
-                <div className='environmenttitle' style={{fontSize:25,color:'black',fontFamily:'Impact'}}>
+                <div className='environmenttitle' style={{fontSize:18,color:'black',fontFamily:'Arial'}}>
                 Environment
                 </div>
             <div  className='environment1'>

@@ -14,7 +14,7 @@ function HealthButtons() {
 
     return (
         <div className ="health1">
-            <div style={{fontSize:25,color:'black',fontFamily:'Impact'}}>
+            <div style={{fontSize:25,color:'black',fontFamily:'Arial'}}>
               Health
             </div>
             <button onClick={(event) => {

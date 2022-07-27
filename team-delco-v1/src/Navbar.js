@@ -1,5 +1,5 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
-import logo from './HumanityWithUS.png';
+import logo from './HumanityWithUs2.png';
 
 
 
@@ -7,11 +7,11 @@ export default function Navbar() {
   return (
     <nav className="nav">
       <Link to="/" className="site-title">
-      <img src={logo}></img>
+      <img src={logo} height="100px" height="70"></img>
       </Link>
       <ul>
-        <CustomLink to="/about"><text style={{color:'#57BC90'}}>About</text></CustomLink>
-        <CustomLink to="/spatial"><text style={{color:'#57BC90'}}>Exploration</text></CustomLink>
+        <CustomLink to="/about"><text style={{fontFamily: 'Tahoma'}}><b>ABOUT</b></text></CustomLink>
+        <CustomLink to="/spatial"><text style={{fontFamily: 'Tahoma'}}><b>EXPLORATION</b></text></CustomLink>
       </ul>
     </nav>
   )
