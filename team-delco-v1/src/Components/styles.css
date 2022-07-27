@@ -1,6 +1,6 @@
 body{
   font: 15px/1.5 Arial, Helvetica, sans-serif;
-  background-color: #D3D3D3;
+  background:  linear-gradient(270deg, rgba(119,201,212,1) 0%, rgba(87,188,144,1) 35%, rgba(1,82,73,1) 100%);
   margin: 0;
   padding: 0 1.5rem;
 }
