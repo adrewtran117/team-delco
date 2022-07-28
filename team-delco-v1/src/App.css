@@ -26,7 +26,7 @@
   border-radius: 25px;
 }
 .nav {
-  background-color: white;
+  
   color: rgb(1, 37, 73);
   display: flex;
   justify-content: space-between;
@@ -52,15 +52,21 @@
   height: 100%;
   display: flex;
   align-items: center;
-  padding: .25rem;
+  padding: .10rem;
   border-radius: 25;
 }
+
+/* Don't need this anymore
 .nav li:hover {
   background-color: white;
 }
+
+
 .nav li.active {
   background-color: white;
 }
+*/
+
 * {
   box-sizing: border-box;
 }
@@ -100,8 +106,72 @@
   }
 }
 
+/**
+.footer {
+    position: fixed;
+    height:30px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: white;
+    text-align: center;
+}
+**/
+
 .homepage2 {
-  height: 500px;
+  color: white;
+  position: relative;
+  top: 5px;
+  left: 240px;
+  padding: 100px;
   width: 500px;
-  background-color: white;
+  height: 500px;
+}
+
+/*
+.holdinghands {
+  position: relative;
+  bottom: 450px;
+  right: 215px;
+}
+*/
+
+.waves {
+  bottom: 0px;
+  position:fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  bottom: 0px;
+}
+
+.waves .svg{
+  position: fixed;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 80px;
+  bottom: 0px;
+}
+
+.waves .shape-fill{
+  fill: #FFFFFF;
+  bottom: 0px;
+}
+
+.cloud_edit{
+  position: relative;
+  top: -600px;
+  right: 200px;
+  filter: drop-shadow(0 0 0 white); 
+}
+
+.community{
+  position: relative;
+  top: -1070px;
+  right: 200px;
+
 }
