@@ -14,12 +14,9 @@ function HealthButtons() {
 
     return (
         <div className ="health1">
-            <div style={{fontSize:25,color:'black',fontFamily:'Arial'}}>
-              Health
-            </div>
-            <button onClick={(event) => {
+            <button style={{background: '#F100B9', opacity: 0.7, border: 'none', borderRadius: 20}} onClick={(event) => {
                     BLLclick(event)
-            }}> <p style={{fontSize:10}}>Blood Lead Levels</p><img src={logo}></img> </button>
+            }}> <p style={{fontSize:20, color: 'white'}}><b>BLOOD LEAD LEVELS</b></p></button>
 
 
             <div className='generationspot'>

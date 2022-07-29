@@ -8,8 +8,8 @@ function SpatialPage() {
   return (
     <div>
         <SpatialTitle/>
-        <div className='rectangle'></div>
-        <div style={{position: 'fixed', top:100, left: 100}}>
+        
+        <div style={{position: 'fixed', top:90, left: 100}}>
         <SpatialMenu/>
         </div>
         <div className='nlp'>
