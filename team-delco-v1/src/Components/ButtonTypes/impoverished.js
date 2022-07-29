@@ -13,13 +13,11 @@ function ImpoverishedButton() {
       }
 
     return (
+        <div>
         <div className ="economic1">
-            <div style={{fontSize:25,color:'black',fontFamily:'Impact',left:10}}>
-              Economic
-            </div>
-            <button onClick={(event) => {
+            <button style={{background: '#4B59F7', opacity: 0.7, border: 'none', borderRadius: 20}} onClick={(event) => {
                     BLLclick(event)
-            }}> <p style={{fontSize:10}}>Poverty Demographics</p><img src={logo}></img>  </button>
+            }}> <p style={{fontSize:20, color: 'white'}}><b>POVERTY DEMOGRAPHICS</b></p></button>
 
 
             <div className='generationspot'>
@@ -27,6 +25,7 @@ function ImpoverishedButton() {
             <ImpoverishedPeople />)}
             </div>
 
+        </div>
         </div>
         )
     }

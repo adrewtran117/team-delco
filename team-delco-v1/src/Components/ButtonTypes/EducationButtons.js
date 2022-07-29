@@ -13,13 +13,11 @@ function EducationButtons() {
         }
 
     return (
+        <div>
         <div className="education1">
-            <div style={{fontSize:25,color:'black',fontFamily:'Impact'}}>
-            Education
-            </div>
-            <button onClick={(event) => {
+            <button style={{background: 'blue', opacity: 0.7, border: 'none', borderRadius: 20}} onClick={(event) => {
                     Collegeclick(event)
-            }}> <p style={{fontSize:10}}>College Attendence</p><img src={logo}></img> </button>
+            }}> <p style={{fontSize:20, font: 'Tahoma', color: 'white'}}><b>COLLEGE ATTENDANCE</b></p></button>
 
             <div className='generationspot'>
             {AttendCollegevisible && (
@@ -27,7 +25,7 @@ function EducationButtons() {
             </div>
             
 
-
+        </div>
         </div>
         )
     }

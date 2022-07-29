@@ -11,25 +11,21 @@ function EnvironmentalButtons() {
         e.preventDefault();
         AIRsetVisible(!AIRvisible);
       }
-    
-    return (
-        <div className='environment1'>
-                <div className='environmenttitle' style={{fontSize:18,color:'black',fontFamily:'Arial'}}>
-                Environment
-                </div>
-            <div  className='environment1'>
-            <button onClick={(event) => {
-                    AIRclick(event)
-            }}> <p style={{fontSize:10}}>Air Quality</p><img src={logo}></img> </button>
 
-                
-            </div>
-            
+    return (
+        <div>
+        <div className="environment1">
+            <button style={{background: 'blue', opacity: 0.7, border: 'blue', borderRadius: 20}} onClick={(event) => {
+                    AIRclick(event)
+            }}> <p style={{fontSize:20, font: 'Tahoma', color: 'white'}}><b>AIR QUALITY</b></p></button>
+
             <div className='generationspot'>
             {AIRvisible && (
             <AirQuality />)}
             </div>
+            
 
+        </div>
         </div>
         )
     }

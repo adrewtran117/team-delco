@@ -5,6 +5,7 @@ body {
     width: 100%;
     height: 100%;
     padding: 0rem;
+    margin: 0rem;
 }
 svg {
     display: inline-block;
@@ -19,4 +20,15 @@ svg {
 .item {
   width: 500px;
   height: 45px;
+}
+
+/* TITLE OF EXPLORATION PAGE */
+.title{
+  position: relative;
+  margin-top: -10px;
+}
+
+/* INSTRUCTIONS FOR EXPLORATION PAGE */
+.instruction{
+  flex: 1;
 }

@@ -13,17 +13,18 @@ function PovertyRateButton() {
       }
 
     return (
+        <div>
         <div className ="economic2">
-            <button onClick={(event) => {
+            <button style={{background: '580EF8', opacity: 0.7, border: 'none', borderRadius: 20}} onClick={(event) => {
                     BLLclick(event)
-            }}> <p style={{fontSize:10}}>Poverty Rate</p><img src={logo}></img> </button>
-
+            }}> <p style={{fontSize:20, color: 'white'}}><b>POVERTY RATE</b></p></button>
 
             <div className='generationspot'>
             {BLLvisible && (
             <Phlpoverty/>)}
             </div>
 
+        </div>
         </div>
         )
     }

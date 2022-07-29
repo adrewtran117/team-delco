@@ -1,23 +1,29 @@
 .health1{
-    width: 100px;
-    height:40px;
-    position:fixed;
-    bottom: 150px;
-    right: 122px;
+    position: fixed;
+    border-radius: 100px;
+    width: 400px;
+    height:100px;
+    margin-left: -50px;
+    top: 250px;
 }
+    
 .education1{
-    /* width: 100px;
-    height:40px; */
-    position:fixed;
-    bottom: 190px;
-    right: 122px;
+  position: fixed;
+  border-radius: 100px;
+  top: 90px;
+  width: 400px;
+  height: 100px;
+  margin-left: -50px;
+  
 }
 .environment1{
-    width: 100px;
-    height:40px;
-    position:fixed;
-    bottom: 320px;
-    right: 122px;
+    position: fixed;
+    border-radius: 100px;
+    top: 200px;
+    margin-left: -50px;
+    width: 400px;
+    height: 100px;
+    
 }
 .economic1{
     width: 100px;
@@ -27,23 +33,24 @@
     right: 122px;
 }
 .economic2{
-    width: 100px;
-    height: 40px;
+    width: 400px;
+    height: 100px;
     position:fixed;
     bottom: 440px;
     right: 122px;
 }
 .environmenttitle{
-    width: 100px;
-    height:40px;
+    width: 400px;
+    height:100px;
     position:fixed;
     bottom: 360px;
     right: 132px;
 }
 .generationspot{
-    width: 100px;
-    height:40px;
+    width: 200px;
+    height:30px;
     position:fixed;
-    bottom: 500px;
-    right:800px;
+    bottom: 450px;
+    right:648px;
+    
 }

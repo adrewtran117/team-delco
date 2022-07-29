@@ -18,13 +18,15 @@ export default function Home() {
         <div className="homepage2">
           <h1><text style={{fontFamily: 'Tahoma'}}><b>Welcome!</b></text></h1>
         </div>
-          
+        <div className="slogan">
+          <h2><text style={{fontFamily: 'Tahoma'}}><b>Create change, Easily Informed </b></text></h2>
+        </div>
         <div className="cloud_edit">
-          <img src={cloud} height="610px" width="600px"></img>
+          <img src={cloud} height="690px" width="790px"></img>
         </div>
 
         <div className="community">
-          <img src={community} height="300px" width="300px"></img>
+          <img src={community} height="380px" width="380px"></img>
         </div>
 
     </div>
