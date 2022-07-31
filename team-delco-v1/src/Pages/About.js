@@ -4,15 +4,15 @@ export default function About() {
       <div>
           <div className="creators">
           <div>
-          <h2> Mission </h2>
-          <h2> HumanityWithUS is a platform distributing </h2>
-          <h2> accurate analytics and opportunities to transform your community for the better. </h2>
-          <h3> Statistics regarding quality of life are given with steps and solutions to solve crises in your area . </h3>
+          <h2 className="header"> Our Mission </h2>
+          <h3 className="paragraph"> Our goal in creating HumanityWithUS is to have a</h3>
 
-            </div>
+          </div>
+          </div>
+          <div className="team">
           <h3>Ryan</h3>
-          <h3> Andrew</h3>
-          <h3> Navi</h3>
+          <h3>Andrew</h3>
+          <h3>Navi</h3>
           <h3>Chiku</h3>
           </div>
         <div>

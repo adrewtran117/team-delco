@@ -14,7 +14,7 @@ function HealthButtons() {
 
     return (
         <div className ="health1">
-            <button style={{background: '#F100B9', opacity: 0.7, border: 'none', borderRadius: 20}} onClick={(event) => {
+            <button style={{background: '#C70039', opacity: 0.9, border: 'none', borderRadius: 20}} onClick={(event) => {
                     BLLclick(event)
             }}> <p style={{fontSize:20, color: 'white'}}><b>BLOOD LEAD LEVELS</b></p></button>
 

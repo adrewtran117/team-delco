@@ -3,24 +3,24 @@
     border-radius: 100px;
     width: 400px;
     height:100px;
-    margin-left: -50px;
-    top: 250px;
+    right: -35px;
+    top: 490px;
 }
     
 .education1{
   position: fixed;
   border-radius: 100px;
-  top: 90px;
+  bottom: 300px;
   width: 400px;
   height: 100px;
-  margin-left: -50px;
+  right: -40px;
   
 }
 .environment1{
     position: fixed;
     border-radius: 100px;
-    top: 200px;
-    margin-left: -50px;
+    bottom: 90px;
+    right: -30px;
     width: 400px;
     height: 100px;
     
@@ -29,15 +29,15 @@
     width: 100px;
     height:40px;
     position:fixed;
-    bottom: 585px;
-    right: 122px;
+    bottom: 490px;
+    right: 150px;
 }
 .economic2{
     width: 400px;
     height: 100px;
     position:fixed;
-    bottom: 440px;
-    right: 122px;
+    bottom: 510px;
+    right: -40px;
 }
 .environmenttitle{
     width: 400px;
