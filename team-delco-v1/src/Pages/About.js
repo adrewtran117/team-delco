@@ -44,7 +44,7 @@ export default function About() {
               <a href="https://www.linkedin.com/in/chiku-okechukwu-19942523b/">
               <FontAwesomeIcon icon={faLinkedin} size="3x" color="#2072B2" transform="left-5"></FontAwesomeIcon>
               </a>
-              <a href="https://github.com/adrewtran117">
+              <a href="https://github.com/chiikugo">
               <FontAwesomeIcon icon={faGithub} size="3x" color="#2072B2"></FontAwesomeIcon>
               </a>
               </div>
@@ -57,7 +57,7 @@ export default function About() {
                 <div className="row text-2xl">
                 <img src={navi} height="300px" width="240px"></img>
 
-              <a href="">
+              <a href="https://www.linkedin.com/in/chiku-okechukwu-19942523b/">
               <FontAwesomeIcon icon={faLinkedin} size="3x" color="#00ABFF" transform="left-5"></FontAwesomeIcon>
               </a>
               <a href="https://github.com/navisingh2">
