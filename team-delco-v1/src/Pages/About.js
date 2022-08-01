@@ -19,7 +19,7 @@ export default function About() {
           </div>
 
           <div className="team">
-            <h2 className="header">Our Team</h2>
+            <h2 className="header1">Our Team</h2>
               <div className="col1">
               <h2 className="drew">Andrew Tran</h2>
               <img src={drewpfp} height="300px" width="240px"></img>

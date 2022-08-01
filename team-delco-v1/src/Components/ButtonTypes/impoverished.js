@@ -15,7 +15,7 @@ function ImpoverishedButton() {
     return (
         <div>
         <div className ="economic1">
-            <button style={{background: '#1AA7EC', opacity: 0.9, border: 'none', borderRadius: 20}} onClick={(event) => {
+            <button style={{background: '#29b6f6', opacity: 0.9, border: 'none', borderRadius: 20}} onClick={(event) => {
                     BLLclick(event)
             }}> <p style={{fontSize:20, color: 'white'}}><b>POVERTY DEMOGRAPHICS</b></p></button>
 
