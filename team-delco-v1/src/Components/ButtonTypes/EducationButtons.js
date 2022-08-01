@@ -15,7 +15,7 @@ function EducationButtons() {
     return (
         <div>
         <div className="education1">
-            <button style={{background: 'blue', opacity: 0.7, border: 'none', borderRadius: 20}} onClick={(event) => {
+            <button style={{background: '#C70039', opacity: 0.9, border: 'none', borderRadius: 20}} onClick={(event) => {
                     Collegeclick(event)
             }}> <p style={{fontSize:20, font: 'Tahoma', color: 'white'}}><b>COLLEGE ATTENDANCE</b></p></button>
 

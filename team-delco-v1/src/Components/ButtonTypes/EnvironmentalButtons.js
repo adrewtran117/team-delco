@@ -15,7 +15,7 @@ function EnvironmentalButtons() {
     return (
         <div>
         <div className="environment1">
-            <button style={{background: 'blue', opacity: 0.7, border: 'blue', borderRadius: 20}} onClick={(event) => {
+            <button style={{background: '#FEC9C9', opacity: 0.9, border: 'blue', borderRadius: 20}} onClick={(event) => {
                     AIRclick(event)
             }}> <p style={{fontSize:20, font: 'Tahoma', color: 'white'}}><b>AIR QUALITY</b></p></button>
 

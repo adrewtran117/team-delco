@@ -2,9 +2,33 @@
     display: inline-block;
     position:fixed;
     width: 900px;
-    height: 600px;
+    height: 400px;
     left: 290px;
     background: white;
     border-radius: 25px;
     justify-content: 'center';
+    text-align:left;
+    margin-left:20px;
   }
+.header{
+  text-align:center;
+  font-size:25px;
+}
+.paragraph{
+  margin-left:20px;
+}
+.team{
+  display: inline-block;
+  position:fixed;
+  width: 900px;
+  height: 300px;
+  left:300px;
+  top:560px;
+  background:white;
+  border-radius:25px;
+  justify-content:'center';
+  margin-top:100px;
+}
+.text{
+  height:4000px;
+}
