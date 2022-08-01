@@ -4,5 +4,5 @@
 * Ryan O'Meara
 * Chiku Okechukwu
 * Andrew Tran
-## Mentor
+## Team Mentor
 * Katie Harshman

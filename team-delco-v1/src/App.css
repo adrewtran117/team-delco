@@ -1,0 +1,190 @@
+.App {
+  text-align: center;
+}
+.parent{
+  top:1000;
+}
+
+.container {
+  margin:1rem;
+  text-align: center;
+}
+.nlp {
+  width: 100px;
+  height:40px;
+  position:absolute;
+  bottom: 200px;
+  right: 675px;
+}
+.rectangle {
+  display: inline-block;
+  position:fixed;
+  width: 200px;
+  height: 650px;
+  right:75px;
+  background: white;
+  border-radius: 25px;
+}
+.nav {
+  
+  color: rgb(1, 37, 73);
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 0rem;
+  padding: 0 2rem;
+  border-radius: 25;
+  
+}
+.site-title {
+  font-size: 2rem;
+}
+.nav ul {
+  padding: 0 3rem;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  
+}
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .10rem;
+  border-radius: 25;
+}
+
+/* Don't need this anymore
+.nav li:hover {
+  background-color: white;
+}
+
+
+.nav li.active {
+  background-color: white;
+}
+*/
+
+* {
+  box-sizing: border-box;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(30, 47, 173);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/**
+.footer {
+    position: fixed;
+    height:30px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: white;
+    text-align: center;
+}
+**/
+
+.homepage2 {
+  color: white;
+  font-size: 35px;
+  position: relative;
+  top: -40px;
+  left: 300px;
+  padding: 100px;
+  width: 500px;
+  height: 500px;
+  z-index: 1000;
+}
+
+.slogan {
+  position: relative;
+  top: -325px;
+  left: 193px;
+  color: white;
+  z-index: 1000;
+}
+
+.waves {
+  bottom: 0px;
+  position:fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.waves .svg{
+  position: fixed;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 80px;
+  bottom: 0px;
+}
+
+.waves .shape-fill{
+  fill: #FFFFFF;
+  bottom: 0px;
+}
+
+.cloud_edit{
+  position: relative;
+  top: -700px;
+  right: 200px;
+  filter: drop-shadow(0 0 0 white); 
+}
+
+.community{
+  position: relative;
+  top: -1260px;
+  right: 200px;
+
+}
+
+.firstbox {
+  position: fixed;
+  border-radius: 30px;
+  background: white;
+  opacity: 0.5;
+  top: 250px;
+  width: 350px;
+  height: 100px;
+  margin-left: -220px;
+}
