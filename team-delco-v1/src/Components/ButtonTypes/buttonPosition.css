@@ -4,13 +4,13 @@
     width: 400px;
     height:100px;
     right: -35px;
-    top: 490px;
+    bottom: 240px;
 }
     
 .education1{
   position: fixed;
   border-radius: 100px;
-  bottom: 300px;
+  bottom: 160px;
   width: 400px;
   height: 100px;
   right: -40px;
@@ -19,7 +19,7 @@
 .environment1{
     position: fixed;
     border-radius: 100px;
-    bottom: 90px;
+    bottom: 80px;
     right: -30px;
     width: 400px;
     height: 100px;
@@ -29,22 +29,22 @@
     width: 100px;
     height:40px;
     position:fixed;
-    bottom: 490px;
+    bottom: 400px;
     right: 150px;
 }
 .economic2{
     width: 400px;
     height: 100px;
     position:fixed;
-    bottom: 532px;
+    bottom: 420px;
     right: -40px;
 }
 .environmenttitle{
     width: 400px;
     height:100px;
     position:fixed;
-    bottom: 360px;
     right: 132px;
+    bottom: 400px;
 }
 .generationspot{
     width: 200px;

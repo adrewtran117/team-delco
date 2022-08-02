@@ -40,6 +40,7 @@ function GenerateText() {
                   height: '35px',
                   resize: 'none',
                   border: '2px solid'
+                  
                 }}
               />
             </div>
