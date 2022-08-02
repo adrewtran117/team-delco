@@ -11,15 +11,15 @@ export default function About() {
     return(
       <div className="scrollable">
           <div className="creators">
-            <div>
-              <h2 className="header"> Our Mission </h2>
-              <h3 className="paragraph"> Our goal in creating HumanityWithUS is to draw attention to the holistic nature of poverty, and to create a single destination for all data relating to people.
-              We would like for experts and everyday people alike to be able to use this resource as a tool for education and promoting awareness on poverty. </h3>
+            <div className="header">
+              <h2 className="missiontitle">Our<br></br>Mission </h2>
+              <p className="paragraph"><b>Our goal in creating HumanityWithUS is to draw attention to the holistic nature of poverty, and to create a single destination for all data relating to people.
+              We would like for experts and everyday people alike to be able to use this resource as a tool for education and promoting awareness on poverty.</b></p>
             </div>
           </div>
 
           <div className="team">
-            <h2 className="header1">Our Team</h2>
+            <h2 className="header1">MEET TEAM DELCO</h2>
               <div className="col1">
               <h2 className="drew">Andrew Tran</h2>
               <img src={drewpfp} height="300px" width="240px"></img>
@@ -79,9 +79,8 @@ export default function About() {
               <FontAwesomeIcon icon={faGithub} size="3x" color="#00E8FF"></FontAwesomeIcon>
               </a>
               </div>
-              </div>
-
-
+             
+            </div>
           </div>
       </div>
     )
